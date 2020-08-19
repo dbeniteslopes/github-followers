@@ -10,34 +10,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = createTabBar()
+        window?.rootViewController = GFTabBarController()
         window?.makeKeyAndVisible()
         
         configureNavigationBar()
-    }
-    
-    func createSearchNavigationController() -> UINavigationController {
-        let searchNavigationController = SearchViewController()
-        searchNavigationController.title = "Search"
-        searchNavigationController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
-        
-        return UINavigationController(rootViewController: searchNavigationController)
-    }
-    
-    func createFavoritesNavigationController() -> UINavigationController {
-        let favoritesNavigationController = FavoritesViewController()
-        favoritesNavigationController.title = "Favorites"
-        favoritesNavigationController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
-        
-        return UINavigationController(rootViewController: favoritesNavigationController)
-    }
-    
-    func createTabBar() -> UITabBarController {
-        let tabBar = UITabBarController()
-        UITabBar.appearance().tintColor = .systemGreen
-        tabBar.viewControllers = [createSearchNavigationController(), createFavoritesNavigationController()]
-        
-        return tabBar
     }
     
     func configureNavigationBar() {
@@ -71,7 +47,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
-
 }
-

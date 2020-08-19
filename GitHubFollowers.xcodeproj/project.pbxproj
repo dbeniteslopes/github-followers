@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E991AE9724E8C5D400850A16 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991AE9624E8C5D400850A16 /* PersistenceManager.swift */; };
 		E991AE9924E9C92600850A16 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991AE9824E9C92600850A16 /* FavoriteCell.swift */; };
+		E99CBAEC24EC790F00506884 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CBAEB24EC790F00506884 /* GFTabBarController.swift */; };
 		E9A647F624D09C0600C7503F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A647F524D09C0600C7503F /* AppDelegate.swift */; };
 		E9A647F824D09C0600C7503F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A647F724D09C0600C7503F /* SceneDelegate.swift */; };
 		E9A647FA24D09C0600C7503F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A647F924D09C0600C7503F /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		E991AE9624E8C5D400850A16 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		E991AE9824E9C92600850A16 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		E99CBAEB24EC790F00506884 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		E9A647F224D09C0600C7503F /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A647F524D09C0600C7503F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9A647F724D09C0600C7503F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E99CBAEA24EC78B900506884 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E99CBAEB24EC790F00506884 /* GFTabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
 		E9A647E924D09C0600C7503F = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 		E9A6481C24D21B6600C7503F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				E99CBAEA24EC78B900506884 /* TabBarControllers */,
 				E9F9338224D45EDB0003F5C6 /* Labels */,
 				E9F9338124D45ED40003F5C6 /* ViewControllers */,
 				E9F9338024D45ECB0003F5C6 /* ImageVIews */,
@@ -365,6 +376,7 @@
 				E9F9338E24D751DE0003F5C6 /* GFItemInfoView.swift in Sources */,
 				E9F9338824D52A600003F5C6 /* GFUserInfoHeaderViewController.swift in Sources */,
 				E9F9338C24D530F40003F5C6 /* Constants.swift in Sources */,
+				E99CBAEC24EC790F00506884 /* GFTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
