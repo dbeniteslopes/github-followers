@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E948514D2502BB6400A2DD8C /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948514C2502BB6400A2DD8C /* UITableView+Ext.swift */; };
+		E948514F25042ACF00A2DD8C /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E948514E25042ACF00A2DD8C /* UIView+Ext.swift */; };
 		E991AE9724E8C5D400850A16 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991AE9624E8C5D400850A16 /* PersistenceManager.swift */; };
 		E991AE9924E9C92600850A16 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991AE9824E9C92600850A16 /* FavoriteCell.swift */; };
 		E99CBAEC24EC790F00506884 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CBAEB24EC790F00506884 /* GFTabBarController.swift */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		E948514C2502BB6400A2DD8C /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		E948514E25042ACF00A2DD8C /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		E991AE9624E8C5D400850A16 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		E991AE9824E9C92600850A16 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		E99CBAEB24EC790F00506884 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				E9A6481924D2139E00C7503F /* UIViewController+Ext.swift */,
 				E9F9339624D75FC70003F5C6 /* Date+Ext.swift */,
 				E948514C2502BB6400A2DD8C /* UITableView+Ext.swift */,
+				E948514E25042ACF00A2DD8C /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				E9A6481624D20B5F00C7503F /* GFBodyLabel.swift in Sources */,
 				E9F9338E24D751DE0003F5C6 /* GFItemInfoView.swift in Sources */,
 				E9F9338824D52A600003F5C6 /* GFUserInfoHeaderViewController.swift in Sources */,
+				E948514F25042ACF00A2DD8C /* UIView+Ext.swift in Sources */,
 				E948514D2502BB6400A2DD8C /* UITableView+Ext.swift in Sources */,
 				E9F9338C24D530F40003F5C6 /* Constants.swift in Sources */,
 				E99CBAEC24EC790F00506884 /* GFTabBarController.swift in Sources */,
